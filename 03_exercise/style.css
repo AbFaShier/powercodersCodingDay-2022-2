@@ -17,7 +17,7 @@ header {
 
 main {
     background-color: whitesmoke;
-    min-height: 1000px;
+    min-height: 800px;
     display: flex;
 }
 
@@ -51,8 +51,9 @@ main {
 }
 
 footer {
-    background-color: chartreuse;
-    height: 100px;
+    background-color: black;
+    height: fit-content;
+    color: white;
 }
 
 .child1{
@@ -88,5 +89,12 @@ p{
     border: 1px solid grey;
     line-height: 125px;
     text-align: center;
-    
+}
+
+ul{
+    text-align: right;
+    padding:40px;
+    list-style-type: none;
+    line-height: 2;
+    font-size: 1.5rem;
 }
